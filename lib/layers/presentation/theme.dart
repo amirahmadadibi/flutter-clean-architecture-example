@@ -112,7 +112,7 @@ class CustomTheme extends ThemeExtension<CustomTheme> {
         toolbarHeight: 152,
         color: colorScheme.surface.withOpacity(0.95),
       ),
-      cardTheme: CardTheme(color: colorScheme.surfaceVariant),
+      cardTheme: CardThemeData(color: colorScheme.surfaceVariant),
       // scaffoldBackgroundColor: isLight ? neutralColor : colorScheme.background,
       // tabBarTheme: TabBarTheme(
       //     labelColor: colorScheme.onSurface,
